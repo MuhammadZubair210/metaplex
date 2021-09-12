@@ -1,0 +1,27 @@
+0 silly argv {
+0 silly argv   _: [ 'link' ],
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': '/Users/apple/metaplex/js/node_modules/.bin/lerna'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath /Users/apple/metaplex/js
+3 info versioning independent
+4 info Symlinking packages and binaries
+5 silly actions finished @metaplex/cli
+6 silly actions finished @oyster/common
+7 silly resolveSymlink /Users/apple/metaplex/js/packages/web/node_modules/@oyster/common
+8 verbose resolveSymlink [
+8 verbose resolveSymlink   '/Users/apple/metaplex/js/packages/web/node_modules/@oyster/common',
+8 verbose resolveSymlink   '/Users/apple/metaplex/js/packages/common'
+8 verbose resolveSymlink ]
+9 silly createSymlink [
+9 silly createSymlink   '/Users/apple/metaplex/js/packages/common',
+9 silly createSymlink   '/Users/apple/metaplex/js/packages/web/node_modules/@oyster/common',
+9 silly createSymlink   'junction'
+9 silly createSymlink ]
+10 silly createSymbolicLink [
+10 silly createSymbolicLink   '../../../common',
+10 silly createSymbolicLink   '/Users/apple/metaplex/js/packages/web/node_modules/@oyster/common',
+10 silly createSymbolicLink   'junction'
+10 silly createSymbolicLink ]
+11 error
